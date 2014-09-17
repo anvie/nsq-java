@@ -63,4 +63,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+          <id>ansvia.snapshot.repository</id>
+          <name>Ansvia Sonatype Nexus Repository</name>
+          <url>http://scala.repo.ansvia.com/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </distributionManagement>
 </project>
